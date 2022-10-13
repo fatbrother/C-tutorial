@@ -2,12 +2,12 @@
 
 void add(int *a)
 {
-    for (int i = 0; i < 3; i++)
-        printf("%d ", a[i]);
+    *a += 1;
 }
 int main()
 {
     int a = 87;
     add(&a);
+    printf("%d", a);
     return 0;
 }

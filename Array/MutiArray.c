@@ -10,4 +10,11 @@ int main()
     int b = a[1][2];
     // 將a[0][0]的值設為5
     a[0][0] = 5;
+
+    for (int i = 0; i < 3; i++)
+    {
+        for (int j = 0; j < 3; j++)
+            printf("%d ", a[i][j]); // 取得某個元素的值
+        printf("\n");
+    }
 }

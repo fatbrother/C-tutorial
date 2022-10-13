@@ -1,13 +1,13 @@
 #include <stdio.h>
 
 // make a function that says hi
-void sayHi(char *name)
+void sayHi()
 {
-    printf("Hi %s\n", name);
+    printf("Hi\n");
 }
 
 // make a function that says bye
-void sayBye(char *name);
+void sayBye();
 int main()
 {
     char name[100];
@@ -18,8 +18,7 @@ int main()
     return 0;
 }
 
-void sayBye(char *name)
+void sayBye()
 {
-    printf("Bye %s\n", name);
+    printf("Bye\n");
 }
-
