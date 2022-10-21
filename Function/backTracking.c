@@ -1,7 +1,6 @@
 #include <stdio.h>
 
 int arr[1001] = {0};
-int used[1001] = {0};
 
 void backtracking(int i, int n)
 {
@@ -14,13 +13,8 @@ void backtracking(int i, int n)
     }
     for (int j = 0; j < n; j++)
     {
-        if (!used[j])
-        {
-            used[j] = 1;
-            arr[i] = j;
-            backtracking(i + 1, n);
-            used[j] = 0;
-        }
+        arr[i] = j;
+        backtracking(i + 1, n);
     }
 }
 
