@@ -2,18 +2,18 @@
 
 int main()
 {
-    // // a
-    // // b
+    // a
+    // b
     // char a, b, c, d;
     // scanf("%c", &a);
     // scanf("%c", &b);
     // scanf("%c", &c);
     // scanf("%c", &d);
-    // printf("ASCII \'\\n\' = %d\n", '\n');
+    // // printf("ASCII \'\\n\' = %d\n", '\n');
     // printf("a: %c, b: %d, c: %c, d: %d\n", a, b, c, d);
 
-    // // a
-    // // b
+    // a
+    // b
     // scanf("%c", &a);
     // scanf(" %c", &b);
     // printf("a: %c, b: %c\n", a, b);
@@ -23,7 +23,7 @@ int main()
     // scanf("%d/%d/%d", &month, &day, &year);
     // printf("month: %d, day: %d, year: %d\n", month, day, year);
 
-    char s[100] = {'\0'};
+    // char s[100] = {'\0'};
     // scanf("%[abc]", &s);
     // printf("f: %s\n", s);
     // scanf("%[a-z]", &s);

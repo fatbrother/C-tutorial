@@ -1,16 +1,4 @@
- // scanf("%d", &i);
-    // switch (i)
-    // {
-    // case 0:
-    // case 1:
-    //     printf("Hello\n");
-    //     break;
-    // case 2:
-    // {
-    //     int a = 10;
-    //     printf("World %d\n", a);
-    // }
-    // default:
-    //     printf("Default\n");
-    //     break;
-    // }
+
+    // int a, b, c, d;
+    // int cnt = scanf("%d%d%d%d", &a, &b, &c, &d);
+    // printf("f: %d\n", cnt);
