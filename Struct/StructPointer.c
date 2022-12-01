@@ -7,7 +7,7 @@ typedef struct {
 
 void printPerson(Person *p)
 {
-    // printf("%s %d\n", (*p).name, (*p).age);
+    printf("%s %d\n", (*p).name, (*p).age);
     printf("%s %d\n", p->name, p->age);
 }
 
