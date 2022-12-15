@@ -2,18 +2,29 @@
 
 using namespace std;
 
-class Student
+class MyString 
 {
 public:
-    void sayHello()
-    {
-        cout << "Hello" << endl;
-    }
+    MyString(const char* cstr = 0);
+    int length() { return strlen(m_data); }
+
+private:
+    char* m_data;
 };
+
+MyString::MyString(const char* cstr)
+{
+    if (cstr) {
+        m_data = new char[strlen(cstr) + 1];
+        strcpy(m_data, cstr);
+    } else {
+        m_data = new char[1];
+        *m_data = '\0';
+    }
+}
 
 int main()
 {
-    Student s;
-    s.sayHello();
-    return 0;
+    MyString str("Hello");
+    cout << str.length() << endl;
 }

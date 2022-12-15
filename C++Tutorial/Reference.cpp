@@ -2,9 +2,9 @@
 
 using namespace std;
 
-void add1(int &a)
+void add1(int &b)
 {
-    a++;
+    b++;
 }
 
 int main()
